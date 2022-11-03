@@ -1,0 +1,52 @@
+body {
+    height: 1700px;
+    background-image: url("https://images.ecestaticos.com/MUsrmUgYGUwR5M6ZyyHCDmeFRUk=/0x0:2121x1414/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fd9e%2F66d%2F793%2Fd9e66d793adbc994841e60850a17e61c.jpg");
+  background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+  }
+html{
+
+scroll-behavior: smooth;
+
+}
+background-image:url(images7fondo2.jpg);
+background-position: center;
+background-position: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+header{
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    text-decoration-line:none;
+    padding-left: 40px;
+}
+
+header, nav, footer, section{
+    background-color:white;
+    border-style: 1;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+}
+footer{
+    clear: both;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+article{
+    background-color: white;
+    border-style: 1;
+    margin: 10px auto;
+    padding: 20px;
+    width: 25%;
+    display: inline-block;
+}
